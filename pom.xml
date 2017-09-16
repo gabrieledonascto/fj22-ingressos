@@ -114,7 +114,7 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.40</version>
         </dependency>
-
+	
         <dependency>
             <groupId>commons-dbcp</groupId>
             <artifactId>commons-dbcp</artifactId>
@@ -166,5 +166,12 @@
             </plugin>
         </plugins>
     </build>
+    
+        <developers>
+		<developer>
+			<name>Gabriele</name>
+			<email>jgabrieledonascto@gmail.com</email>
+		</developer>
+	</developers>
 
 </project>
