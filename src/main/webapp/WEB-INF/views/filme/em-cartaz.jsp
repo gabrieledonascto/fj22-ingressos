@@ -26,7 +26,14 @@
 
             </c:forEach>
         </div>
-
+<div	class="collapse	navbar-collapse"
+									id="bs-example-navbar-collapse-1">
+					<ul	class="nav	navbar-nav	navbar-right">
+									<li><a	href="/admin/filmes">Filmes</a></li>
+									<li><a	href="/admin/salas">Salas</a></li>		
+									<li><a	href="/filme/em-cartaz">Comprar</a></li>																							
+					</ul>
+</div>
         <style>
             a:hover {
                 text-decoration: none;
@@ -44,6 +51,7 @@
                 min-height: 10.5em;
                 min-width: 13em;
             }
+            
         </style>
     </jsp:body>
 </ingresso:template>
